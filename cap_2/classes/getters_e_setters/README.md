@@ -1,4 +1,6 @@
-## Trabalhando com getters e setters
+# Trabalhando com getters e setters
+
+## Nesse capítulo veremos como trabalhar com os métodos `get` e `set` do JavaScript
 
 ### Método getters
 
@@ -12,7 +14,7 @@ class Person {
   }
 
   get namePrivado() {
-    // Aqui criamos uma função de get, para podermos acessar Person.namePrivado
+    // Aqui criamos uma função de get, para podermos acessar Person.namePrivado`
     // Que irá retornar o nome do método privado
     return this._name;
   }
